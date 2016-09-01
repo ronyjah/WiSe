@@ -9,6 +9,20 @@ porta->write(buffer,bytes);
 int Framing::receive(char *buffer)
 {
     int numero_bytes=0;
+
+    char mybuffer[500];
+    int lenMsg = strlen(buffer);
+    int i,j;
+    for(i=0;lenMsg;i++){
+    	if(strcmp(buffer[i], Flag) == 0){
+    		//printf("\n INICIO DA MENSAGEM"\n);
+
+
+    	}else{
+
+    	}
+
+    }
     //FILE *received_file;
     //rpmaçdp
     //received_file = fopen(argv[3], "w");
