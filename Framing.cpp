@@ -10,6 +10,7 @@ int Framing::receive(char *buffer)
 {
     int numero_bytes=0;
     //FILE *received_file;
+    //rpmaçdp
     //received_file = fopen(argv[3], "w");
 /*
     char Flag = 0x7e;
